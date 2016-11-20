@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ParcVehicule</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_start">GPV STEG</string>
+    <string name="title_activity_mission">Mission</string>
+    <string name="title_activity_intervention">Intervention</string>
+
+
+    <!-- TODO: IP ADRESSE HERE -->
+    <string name="ip_adresse">192.168.0.50:8080</string>
+    <string name="key_map">AIzaSyD4Qqk2vuWa4fVeh9R2UvvokAfqmwvJKOg</string>
+    <string name="title_activity_detail_mission">Detail_mission</string>
+    <string name="title_activity_detail_intervention">Detail_intervention</string>
+
+    <string name="titre_app">Gestion du parc véhicule STEG</string>
+    <string name="title_activity_propos">Propos</string>
+
+    <string name="name_titre">GPV STEG</string>
+    <string name="name_dev1">nom dévéloppeur 1</string>
+    <string name="name_dev2">nom dévéloppeur 2</string>
+    <string name="name_univer">nom universite </string>
+    <string name="name_date">2015/2016</string>
+    <string name="name_email">parc@gmail.com</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+       <RelativeLayout
+            android:id="@+id/parallaxContent"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/image_services"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="17dp"
+                android:adjustViewBounds="true"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/them"
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parallaxContent2"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <EditText
+                android:id="@+id/edit_server"
+                android:layout_marginTop="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:hint="ip server" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+
+                android:layout_below="@+id/edit_server">
+
+                <Button android:id="@+id/btn_server_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Annuler"
+                    android:gravity="center"
+
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginBottom="10dp"
+                    android:elevation="17dp"
+                    android:clickable="true"
+                    android:background="@color/color_accent2"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@android:color/white"/>
+
+                <Button android:id="@+id/btn_server_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ajouter"
+                    android:layout_marginBottom="10dp"
+                    android:elevation="17dp"
+                    android:clickable="true"
+                    android:background="@color/checkbox_checked_color"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@android:color/white"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Url Server :"
+            android:id="@+id/objectif"
+            android:textSize="23dp"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentBottom="true"
+            />
+
+
+
+
+
+
+</FrameLayout>
